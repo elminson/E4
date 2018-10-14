@@ -1,6 +1,6 @@
 # Remove the question mark from the request but maintain the query string
 RewriteEngine On
-RewriteBase /www/public/E4
+RewriteBase /public #path to index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
