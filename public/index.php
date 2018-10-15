@@ -21,7 +21,6 @@ spl_autoload_register(function ($class) {
 /**
  * Routing
  */
-
 $router = new Core\Router();
 
 // Add the routes
